@@ -427,7 +427,7 @@ Results for Application Search
             
             
 
-            <p class="pager top"><span class="showing"><strong>Showing 121-130</strong> of 135</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=12" class="previous"><img border="0" src="https://publicaccess.leeds.gov.uk/online-applications-skin/images/pager_previous.gif" alt="" title="Display the previous page of search results"/>Previous</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=5" class="page">5</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=6" class="page">6</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=7" class="page">7</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=8" class="page">8</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=9" class="page">9</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=10" class="page">10</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=11" class="page">11</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=12" class="page">12</a><span class="divider">|</span><strong>13</strong><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=14" class="page">14</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=14" class="next">Next<img border="0" src="https://publicaccess.leeds.gov.uk/online-applications-skin/images/pager_next.gif" alt="" title="Display the next page of search results"/></a></p>
+            <p class="pager top"><span class="showing"><strong>Showing 271-280</strong> of 456</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=27" class="previous"><img border="0" src="https://publicaccess.leeds.gov.uk/online-applications-skin/images/pager_previous.gif" alt="" title="Display the previous page of search results"/>Previous</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=24" class="page">24</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=25" class="page">25</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=26" class="page">26</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=27" class="page">27</a><span class="divider">|</span><strong>28</strong><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=29" class="page">29</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=30" class="page">30</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=31" class="page">31</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=32" class="page">32</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=33" class="page">33</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=29" class="next">Next<img border="0" src="https://publicaccess.leeds.gov.uk/online-applications-skin/images/pager_next.gif" alt="" title="Display the next page of search results"/></a></p>
     
 
 <div class="col-a">
@@ -438,8 +438,8 @@ Results for Application Search
 
         <li class="searchresult">
 
-            <a href="/online-applications/applicationDetails.do?keyVal=NB0SD4JB17S00&amp;activeTab=summary">
-                Single storey side/rear extension and associated works to create new car parking space
+            <a href="/online-applications/applicationDetails.do?keyVal=MZSP1VJB17S00&amp;activeTab=summary">
+                Change of Use from A1 (Retail) to A2 (Financial &amp; Professional Services)
             </a>
 
             
@@ -453,13 +453,13 @@ Results for Application Search
                     <p class="address">
                         
                         
-                        Glen Lea Dental Suite 20 York Road Wetherby LS22 6SL
+                        19 St Johns Centre Leeds LS2 8LQ
                     </p>
                 
 
                 <p class="metaInfo">
                     Ref. No:
-                    14/05124/FU
+                    14/00376/FU
                     <span class="divider">|</span>
 
 
@@ -483,7 +483,7 @@ Results for Application Search
                       
                        
                         Validated:
-                        Wed 03 Sep 2014
+                        Wed 22 Jan 2014
                         <span class="divider">|</span>
                        
                       
@@ -512,8 +512,8 @@ Results for Application Search
 
         <li class="searchresult">
 
-            <a href="/online-applications/applicationDetails.do?keyVal=NB0J8PJB0FZ00&amp;activeTab=summary">
-                Erection of detached dwelling
+            <a href="/online-applications/applicationDetails.do?keyVal=MZT440JB0QU00&amp;activeTab=summary">
+                Two storey side extension; single storey rear extension; side gable wall extension and dormer window to rear forming rooms in roof space; detached double garage and store to rear.
             </a>
 
             
@@ -527,13 +527,13 @@ Results for Application Search
                     <p class="address">
                         
                         
-                        Land Adj To 8 Park Road Rawdon Leeds LS19 6HX
+                        6 Chatsworth Road Pudsey LS28 8JS
                     </p>
                 
 
                 <p class="metaInfo">
                     Ref. No:
-                    14/05114/FU
+                    14/00381/FU
                     <span class="divider">|</span>
 
 
@@ -557,7 +557,7 @@ Results for Application Search
                       
                        
                         Validated:
-                        Wed 03 Sep 2014
+                        Tue 28 Jan 2014
                         <span class="divider">|</span>
                        
                       
@@ -586,8 +586,8 @@ Results for Application Search
 
         <li class="searchresult">
 
-            <a href="/online-applications/applicationDetails.do?keyVal=NAYS2TJB17S00&amp;activeTab=summary">
-                Erection of two storey block of 12 flats
+            <a href="/online-applications/applicationDetails.do?keyVal=MZSJHKJB17S00&amp;activeTab=summary">
+                First floor rear extension
             </a>
 
             
@@ -601,13 +601,13 @@ Results for Application Search
                     <p class="address">
                         
                         
-                        2 Low Grange View Belle Isle Leeds LS10 3DT
+                        5 Parkland Avenue Morley Leeds LS27 0LB
                     </p>
                 
 
                 <p class="metaInfo">
                     Ref. No:
-                    14/05077/FU
+                    14/00375/FU
                     <span class="divider">|</span>
 
 
@@ -631,7 +631,7 @@ Results for Application Search
                       
                        
                         Validated:
-                        Fri 26 Sep 2014
+                        Mon 27 Jan 2014
                         <span class="divider">|</span>
                        
                       
@@ -660,8 +660,8 @@ Results for Application Search
 
         <li class="searchresult">
 
-            <a href="/online-applications/applicationDetails.do?keyVal=NAWGPSJB17S00&amp;activeTab=summary">
-                Erection of stable block and access track
+            <a href="/online-applications/applicationDetails.do?keyVal=MZSJHFJB17S00&amp;activeTab=summary">
+                Single storey rear extension
             </a>
 
             
@@ -675,13 +675,13 @@ Results for Application Search
                     <p class="address">
                         
                         
-                        The Old Barn Eccup Lane Leeds LS16 8AH
+                        30 Warrels Court Leeds LS13 3EL
                     </p>
                 
 
                 <p class="metaInfo">
                     Ref. No:
-                    14/05039/FU
+                    14/00374/FU
                     <span class="divider">|</span>
 
 
@@ -705,7 +705,7 @@ Results for Application Search
                       
                        
                         Validated:
-                        Thu 11 Sep 2014
+                        Thu 13 Feb 2014
                         <span class="divider">|</span>
                        
                       
@@ -734,8 +734,8 @@ Results for Application Search
 
         <li class="searchresult">
 
-            <a href="/online-applications/applicationDetails.do?keyVal=NAPD74JB17S00&amp;activeTab=summary">
-                New Security Accommodation Building to Emmerdale village entrance
+            <a href="/online-applications/applicationDetails.do?keyVal=MZSJHAJB17S00&amp;activeTab=summary">
+                Single storey side and rear extension
             </a>
 
             
@@ -749,13 +749,13 @@ Results for Application Search
                     <p class="address">
                         
                         
-                        Land Adj Stub House Farm Harrogate Road Harewood Leeds LS17 9LF
+                        Unit 23 Sandbeck Park Sandbeck Lane Wetherby LS22 7TW
                     </p>
                 
 
                 <p class="metaInfo">
                     Ref. No:
-                    14/05014/FU
+                    14/00373/FU
                     <span class="divider">|</span>
 
 
@@ -779,7 +779,7 @@ Results for Application Search
                       
                        
                         Validated:
-                        Thu 11 Sep 2014
+                        Wed 22 Jan 2014
                         <span class="divider">|</span>
                        
                       
@@ -808,8 +808,8 @@ Results for Application Search
 
         <li class="searchresult">
 
-            <a href="/online-applications/applicationDetails.do?keyVal=NAN7E2JB17S00&amp;activeTab=summary">
-                Single storey rear extension and orangery.
+            <a href="/online-applications/applicationDetails.do?keyVal=MZSJGLJB17S00&amp;activeTab=summary">
+                Two storey/single storey front/side extension
             </a>
 
             
@@ -823,13 +823,13 @@ Results for Application Search
                     <p class="address">
                         
                         
-                        7 St. Lukes Close Clifford Wetherby LS23 6JS
+                        1 Manor Park Scarcroft Leeds LS14 3BW
                     </p>
                 
 
                 <p class="metaInfo">
                     Ref. No:
-                    14/04988/FU
+                    14/00371/FU
                     <span class="divider">|</span>
 
 
@@ -853,7 +853,7 @@ Results for Application Search
                       
                        
                         Validated:
-                        Wed 03 Sep 2014
+                        Tue 28 Jan 2014
                         <span class="divider">|</span>
                        
                       
@@ -882,8 +882,8 @@ Results for Application Search
 
         <li class="searchresult">
 
-            <a href="/online-applications/applicationDetails.do?keyVal=NALCPEJB17S00&amp;activeTab=summary">
-                Two storey and single storey side/rear extension
+            <a href="/online-applications/applicationDetails.do?keyVal=MZT5UVJB17S00&amp;activeTab=summary">
+                One attached dwelling to 1 Sussex Avenue
             </a>
 
             
@@ -897,13 +897,13 @@ Results for Application Search
                     <p class="address">
                         
                         
-                        14 Swinnow Grove Leeds LS13 4NW
+                        Garden Land At 1 Sussex Avenue Horsforth Leeds LS18 5NP
                     </p>
                 
 
                 <p class="metaInfo">
                     Ref. No:
-                    14/04965/FU
+                    14/00385/FU
                     <span class="divider">|</span>
 
 
@@ -927,7 +927,7 @@ Results for Application Search
                       
                        
                         Validated:
-                        Mon 22 Sep 2014
+                        Thu 30 Jan 2014
                         <span class="divider">|</span>
                        
                       
@@ -956,8 +956,8 @@ Results for Application Search
 
         <li class="searchresult">
 
-            <a href="/online-applications/applicationDetails.do?keyVal=NAHNDQJB17S00&amp;activeTab=summary">
-                One detached house including change of use of garden to no 115 to parking/turning area
+            <a href="/online-applications/applicationDetails.do?keyVal=MZT5UCJB17S00&amp;activeTab=summary">
+                Two dormer windows to rear and raise in roof height
             </a>
 
             
@@ -971,13 +971,13 @@ Results for Application Search
                     <p class="address">
                         
                         
-                        115 Valley Road Pudsey West Yorkshire LS28 9DU
+                        31 Rockwood Road Calverley Pudsey LS28 5AB
                     </p>
                 
 
                 <p class="metaInfo">
                     Ref. No:
-                    14/04912/FU
+                    14/00384/FU
                     <span class="divider">|</span>
 
 
@@ -1001,7 +1001,7 @@ Results for Application Search
                       
                        
                         Validated:
-                        Mon 08 Sep 2014
+                        Fri 31 Jan 2014
                         <span class="divider">|</span>
                        
                       
@@ -1030,8 +1030,8 @@ Results for Application Search
 
         <li class="searchresult">
 
-            <a href="/online-applications/applicationDetails.do?keyVal=NAHNCOJB17S00&amp;activeTab=summary">
-                Construction of temporary house
+            <a href="/online-applications/applicationDetails.do?keyVal=MZT5TZJB17S00&amp;activeTab=summary">
+                Demolition of existing dwelling and erection of one detached dwelling and detached triple garage
             </a>
 
             
@@ -1045,13 +1045,13 @@ Results for Application Search
                     <p class="address">
                         
                         
-                        The Olde Windmill Stud Lotherton Lane Aberford Leeds LS25 3DS
+                        30 Aberford Road Oulton Leeds LS26 8LD
                     </p>
                 
 
                 <p class="metaInfo">
                     Ref. No:
-                    14/04906/FU
+                    14/00383/FU
                     <span class="divider">|</span>
 
 
@@ -1075,7 +1075,7 @@ Results for Application Search
                       
                        
                         Validated:
-                        Thu 11 Sep 2014
+                        Tue 04 Feb 2014
                         <span class="divider">|</span>
                        
                       
@@ -1104,8 +1104,8 @@ Results for Application Search
 
         <li class="searchresult">
 
-            <a href="/online-applications/applicationDetails.do?keyVal=NAJO70JB0FZ00&amp;activeTab=summary">
-                Variation of condition number 4 (opening hours) of planning approval 13/04009/FU (Use of site as 52 space short stay car park)
+            <a href="/online-applications/applicationDetails.do?keyVal=MZQZX6JB17S00&amp;activeTab=summary">
+                Two storey/first floor side extension
             </a>
 
             
@@ -1119,13 +1119,13 @@ Results for Application Search
                     <p class="address">
                         
                         
-                        Land At Wellington Street And Aire Street Leeds LS1
+                        1 Quarry Gardens Leeds LS17 7NQ
                     </p>
                 
 
                 <p class="metaInfo">
                     Ref. No:
-                    14/04939/FU
+                    14/00355/FU
                     <span class="divider">|</span>
 
 
@@ -1149,7 +1149,7 @@ Results for Application Search
                       
                        
                         Validated:
-                        Tue 30 Sep 2014
+                        Fri 31 Jan 2014
                         <span class="divider">|</span>
                        
                       
@@ -1188,7 +1188,7 @@ Results for Application Search
 
 <div class="clear"></div>
 
-<p class="pager bottom"><span class="showing"><strong>Showing 121-130</strong> of 135</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=12" class="previous"><img border="0" src="https://publicaccess.leeds.gov.uk/online-applications-skin/images/pager_previous.gif" alt="" title="Display the previous page of search results"/>Previous</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=5" class="page">5</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=6" class="page">6</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=7" class="page">7</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=8" class="page">8</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=9" class="page">9</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=10" class="page">10</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=11" class="page">11</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=12" class="page">12</a><span class="divider">|</span><strong>13</strong><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=14" class="page">14</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=14" class="next">Next<img border="0" src="https://publicaccess.leeds.gov.uk/online-applications-skin/images/pager_next.gif" alt="" title="Display the next page of search results"/></a></p>
+<p class="pager bottom"><span class="showing"><strong>Showing 271-280</strong> of 456</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=27" class="previous"><img border="0" src="https://publicaccess.leeds.gov.uk/online-applications-skin/images/pager_previous.gif" alt="" title="Display the previous page of search results"/>Previous</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=24" class="page">24</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=25" class="page">25</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=26" class="page">26</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=27" class="page">27</a><span class="divider">|</span><strong>28</strong><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=29" class="page">29</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=30" class="page">30</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=31" class="page">31</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=32" class="page">32</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=33" class="page">33</a><span class="divider">|</span><a href ="/online-applications/pagedSearchResults.do?action=page&amp;searchCriteria.page=29" class="next">Next<img border="0" src="https://publicaccess.leeds.gov.uk/online-applications-skin/images/pager_next.gif" alt="" title="Display the next page of search results"/></a></p>
 
 <div class="clear"></div>
 </div>

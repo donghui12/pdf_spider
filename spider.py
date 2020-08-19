@@ -18,8 +18,8 @@ class UKSpider(object):
         self.base_search_data = {
             "searchCriteria.caseType": "FU", 
             "searchCriteria.caseStatus": "Decided", 
-            "searchCriteria.caseDecision": "R", 
-            # "searchCriteria.caseDecision": "A", 
+            # "searchCriteria.caseDecision": "R", 
+            "searchCriteria.caseDecision": "A", 
             "searchCriteria.appealStatus": "", 
             "caseAddressType": "Application", 
             "searchType": "Application", 
