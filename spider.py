@@ -3,6 +3,7 @@ import re
 import time
 import copy
 import pickle
+import copy
 
 class UKSpider(object):
     def __init__(self):
@@ -13,8 +14,18 @@ class UKSpider(object):
         self.info_page_base_url = 'https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal={}'
         self.pdf_base_path = 'pdfs/{}_FU.zip'
 
-        self.load_session()  # 加载session
         self.chunk_size = 128
+        self.base_search_data = {
+            "searchCriteria.caseType": "FU", 
+            "searchCriteria.caseStatus": "Decided", 
+            "searchCriteria.caseDecision": "R", 
+            # "searchCriteria.caseDecision": "A", 
+            "searchCriteria.appealStatus": "", 
+            "caseAddressType": "Application", 
+            "searchType": "Application", 
+            "date(applicationValidatedStart)": "01/09/2019", 
+            "date(applicationValidatedEnd)": "01/12/2019", 
+        }
 
     def connect(self, url, headers, parameters):
         """
@@ -55,27 +66,29 @@ class UKSpider(object):
             'Sec-Fetch-User': '?1',
             'Upgrade-Insecure-Requests': '1',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
-            'Cookie': 'JSESSIONID=OR9H9l7j2197HuNCfQkjY-cnLPeMpj8Yb5CK25aT.pdaidxwam02',
+            # 'Cookie': 'JSESSIONID=Bkkf2JCcv7eaMAHolrSPR1lwX_E5U27xnfdxretF.pdaidxwam02',
             'Referer': referer, 
         }      
 
         return base_header
     
-    def get_first_info_page_url(self):
+    def DATA(self):
+        months = [(i*3, (i+1)*3) for i in range(4)]
+        years = list(range(2014, 2015))
+        for year in years:
+            for month in months:
+                search_data = copy.deepcopy(self.base_search_data)
+                month_0 = month[0] or 1
+                applicationValidatedStart = '01/{}/{}'.format(str(month_0), str(year))
+                applicationValidatedEnd = '01/{}/{}'.format(str(month[1]), str(year))
+                search_data['date(applicationValidatedStart)'] = applicationValidatedStart
+                search_data['date(applicationValidatedEnd)'] = applicationValidatedEnd
+                yield search_data
+    
+    def get_first_info_page_url(self, search_data):
         """
             请求首页搜索页面，获取session
         """
-        search_data = {
-            "searchCriteria.caseType": "FU", 
-            "searchCriteria.caseStatus": "Decided", 
-            # "searchCriteria.caseDecision": "R", 
-            "searchCriteria.caseDecision": "A", 
-            "searchCriteria.appealStatus": "", 
-            "caseAddressType": "Application", 
-            "searchType": "Application", 
-            "date(applicationValidatedStart)": "01/09/2009", 
-            "date(applicationValidatedEnd)": "01/12/2009", 
-        }
         self.load_session()
         try:
             resp = self.session.post(self.search_base_url,data=search_data)
@@ -85,9 +98,11 @@ class UKSpider(object):
         except Exception as e:
             print('Error, ', e)
             return None
-        page_number = re.search('<span class="showing"><strong>Showing 1-10</strong> of (.*?)</span>', resp.text).group(1)
 
-        self.save_session()
+        try:
+            page_number = re.search('<span class="showing"><strong>Showing 1-10</strong> of (.*?)</span>', resp.text).group(1)
+        except Exception as e:
+            self.load_session()
         return page_number
     
     def save(self, text):
@@ -123,9 +138,12 @@ class UKSpider(object):
         """
             解析搜索页面，获取具体info_page_url
         """
+        with open('search_page.txt', 'w') as f:
+            f.write(search_page)
         try:
             page_number = re.search(r'<strong>([\d]{1,2})</strong>', search_page).group(1)
         except Exception as e:
+            self.load_session()
             print(e)
             page_number = '-1'
     
@@ -137,7 +155,7 @@ class UKSpider(object):
     
     def parse_info_page(self, info_page):
         """
-            这是具体页面进行解析，获取下载链接
+            这是具体页面进行解析，获取pdf下载链接
         """
         try:
             file_url = re.search(r'value="(.*?/APPLICATION_FORM_-_WITHOUT_PERSONAL_DATA-.*?.pdf)"', info_page).group(1)
@@ -185,16 +203,17 @@ class UKSpider(object):
         """
             获取info_page_url, 并保存下来
         """
-        page_number = self.get_first_info_page_url()
-        print('总页面', page_number)
+        for search_data in self.DATA():
+            page_number = self.get_first_info_page_url(search_data)
+            print('总页面', page_number)
 
-        for page_idx in range(1, int(int(page_number)/10)+1):
-            search_url = self.search_base_index_url.format(page_idx)
-            search_page = self.session.get(search_url, headers=self.HEADERS(search_url))
-            
-            info_urls = self.parse_search_page(search_page.text)
-            print(info_urls)
-            self.save_info_url(info_urls)
+            for page_idx in range(1, int(int(page_number)/10)+1):
+                search_url = self.search_base_index_url.format(page_idx)
+                print(search_url)
+                search_page = self.session.get(search_url, headers=self.HEADERS(search_url))
+                info_urls = self.parse_search_page(search_page.text)
+                print(info_urls)
+                self.save_info_url(info_urls)
     
     def get_download_urls(self):
         """
@@ -230,7 +249,7 @@ class UKSpider(object):
         """
             获取下载urls
         """
-        with open('info_url.txt', 'r', encoding='utf-8') as f:
+        with open('seccess_info_url.txt', 'r', encoding='utf-8') as f:
             info_page_urls = f.readlines()
         
         for rd_info_page_url in info_page_urls:
@@ -238,20 +257,20 @@ class UKSpider(object):
             
             info_page_text = requests.get(info_page_url).text
             if info_page_text is None:
-                print(rd_info_page_url)
+                print('rd_info_page_url is None', rd_info_page_url)
                 time.sleep(2)
             else:
                 download_url = self.parse_info_page(info_page_text)
-                print(download_url)
+                print('download_url is:', download_url)
                 if download_url is None:
                     print(rd_info_page_url)
                     time.sleep(2)
                 else:
-                    self.download(download_url, info_page_url)
-                    """
+                    # self.download(download_url, info_page_url)
+                    
                     with open('download_urls.txt', 'a') as f:
                         f.write(download_url+'\n')
-                    """
+                    
     
     def get_pdf(self):
         with open('download_urls.txt', 'r') as f:
@@ -265,7 +284,7 @@ if __name__=="__main__":
     base_url = ''
 
     ukspider = UKSpider()
-    ukspider.get_info_page_url()  # 获取具体页面的url
-    # ukspider.get_download_urls()  # 获取具体下载连接 pdf的下载连接
+    # ukspider.get_info_page_url()  # 获取具体页面的url
+    ukspider.get_download_urls()  # 获取具体下载连接 pdf的下载连接
     # ukspider.get_pdf()  # 获取pdf文件
     
